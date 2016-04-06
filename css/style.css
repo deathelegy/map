@@ -1,0 +1,65 @@
+html, body, #map-canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #232323;
+}
+#panel-block {
+    background-color: #232323;
+}
+#panel h2 {
+    text-align: center;
+    color: #949494;
+}
+#panel h2 img {
+    margin-left: -10px;
+}
+.panel-default {
+    background-color: #606060;
+    border: none;
+}
+.panel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.panel h4 {
+    color: #000000;
+    font-style: italic;
+    margin-left: 40px;
+}
+.panel img {
+    position: absolute;
+    margin-left: -20px;
+}
+.panel-selected {
+    background-color: #00C578;
+}
+.panel-selected h4 {
+    color: #FFFFFF;
+}
+#map-tips {
+    opacity: 0.6;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    top: 15px;
+}
+.alert-black {
+    background-color: #232323;
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+    color: #00C578;
+    font-size: 16px;
+}
+.output-body, #output {
+    overflow: auto;
+    color: #949494;
+    background-color: #1D1D1D;
+    text-align: center;
+}
+.output-body h4, #output h4 {
+    margin: 0;
+}
